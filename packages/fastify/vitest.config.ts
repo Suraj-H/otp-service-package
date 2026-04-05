@@ -1,0 +1,17 @@
+import { defineConfig } from "vitest/config";
+import { resolve } from "node:path";
+
+export default defineConfig({
+  resolve: {
+    alias: {
+      "@otp-service/core": resolve(__dirname, "../core/src/index.ts"),
+      "@otp-service/testkit": resolve(__dirname, "../testkit/src/index.ts"),
+      fastify: resolve(__dirname, "../../node_modules/fastify/fastify.js")
+    }
+  },
+  test: {
+    environment: "node",
+    globals: false,
+    include: ["test/**/*.test.ts"]
+  }
+});

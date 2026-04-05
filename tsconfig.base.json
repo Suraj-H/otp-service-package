@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "useUnknownInCatchVariables": true,
+    "noImplicitOverride": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@nestjs/common": [
+        "node_modules/@nestjs/common/index.d.ts"
+      ],
+      "@nestjs/core": [
+        "node_modules/@nestjs/core/index.d.ts"
+      ],
+      "@nestjs/testing": [
+        "node_modules/@nestjs/testing/index.d.ts"
+      ],
+      "@otp-service/core": [
+        "packages/core/src/index.ts"
+      ],
+      "@otp-service/express": [
+        "packages/express/src/index.ts"
+      ],
+      "@otp-service/fastify": [
+        "packages/fastify/src/index.ts"
+      ],
+      "@otp-service/nest": [
+        "packages/nest/src/index.ts"
+      ],
+      "@otp-service/provider-email-resend": [
+        "packages/provider-email-resend/src/index.ts"
+      ],
+      "@otp-service/provider-sms-twilio": [
+        "packages/provider-sms-twilio/src/index.ts"
+      ],
+      "@otp-service/redis-store": [
+        "packages/redis-store/src/index.ts"
+      ],
+      "@otp-service/starter": [
+        "packages/starter/src/index.ts"
+      ],
+      "@otp-service/testkit": [
+        "packages/testkit/src/index.ts"
+      ],
+      "reflect-metadata": [
+        "node_modules/reflect-metadata/index.d.ts"
+      ],
+      "rxjs": [
+        "node_modules/rxjs/dist/types/index.d.ts"
+      ]
+    },
+    "types": [
+      "node"
+    ]
+  }
+}

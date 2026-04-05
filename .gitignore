@@ -1,0 +1,15 @@
+node_modules
+.pnpm-store
+dist
+
+# Local agent skill/plugin copies — not part of published packages (see docs/guides/initial-import.md)
+agent-skills/
+coverage
+.DS_Store
+.env
+.env.*
+!.env.example
+.tmp
+tests/publishability/consumer/node_modules
+tests/publishability/consumer/pnpm-lock.yaml
+tests/publishability/tarballs

@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": [
+    "examples/**/*.ts",
+    "packages/*/src/**/*.ts",
+    "packages/*/test/**/*.ts",
+    "packages/*/tsup.config.ts",
+    "packages/*/vitest.config.ts",
+    "tests/**/*.ts",
+    "tooling/**/*.ts",
+    "vitest.config.ts"
+  ]
+}

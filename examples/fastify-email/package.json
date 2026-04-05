@@ -1,0 +1,17 @@
+{
+  "name": "fastify-email-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --import tsx src/server.ts"
+  },
+  "dependencies": {
+    "@otp-service/core": "workspace:*",
+    "@otp-service/fastify": "workspace:*",
+    "@otp-service/testkit": "workspace:*",
+    "fastify": "^5.3.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6"
+  }
+}

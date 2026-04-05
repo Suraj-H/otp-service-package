@@ -1,0 +1,26 @@
+{
+  "name": "otp-publishability-consumer",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@nestjs/common": "file:../../../node_modules/@nestjs/common",
+    "@nestjs/core": "file:../../../node_modules/@nestjs/core",
+    "@otp-service/core": "file:../tarballs/otp-service-core-0.0.0.tgz",
+    "@otp-service/express": "file:../tarballs/otp-service-express-0.0.0.tgz",
+    "@otp-service/fastify": "file:../tarballs/otp-service-fastify-0.0.0.tgz",
+    "@otp-service/nest": "file:../tarballs/otp-service-nest-0.0.0.tgz",
+    "@otp-service/provider-email-resend": "file:../tarballs/otp-service-provider-email-resend-0.0.0.tgz",
+    "@otp-service/provider-sms-twilio": "file:../tarballs/otp-service-provider-sms-twilio-0.0.0.tgz",
+    "@otp-service/redis-store": "file:../tarballs/otp-service-redis-store-0.0.0.tgz",
+    "@otp-service/starter": "file:../tarballs/otp-service-starter-0.0.0.tgz",
+    "@otp-service/testkit": "file:../tarballs/otp-service-testkit-0.0.0.tgz",
+    "express": "file:../../../node_modules/express",
+    "fastify": "file:../../../node_modules/fastify",
+    "reflect-metadata": "file:../../../node_modules/reflect-metadata",
+    "rxjs": "file:../../../node_modules/rxjs"
+  },
+  "devDependencies": {
+    "@types/node": "file:../../../node_modules/@types/node",
+    "typescript": "file:../../../node_modules/typescript"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "starter-express-sms-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --import tsx src/server.ts"
+  },
+  "dependencies": {
+    "@otp-service/express": "workspace:*",
+    "@otp-service/starter": "workspace:*",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6"
+  }
+}

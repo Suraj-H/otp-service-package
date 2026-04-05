@@ -1,0 +1,21 @@
+{
+  "name": "nest-sms-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --import tsx src/server.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.6",
+    "@nestjs/core": "^11.1.6",
+    "@nestjs/platform-express": "^11.1.6",
+    "@otp-service/core": "workspace:*",
+    "@otp-service/nest": "workspace:*",
+    "@otp-service/testkit": "workspace:*",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6"
+  }
+}

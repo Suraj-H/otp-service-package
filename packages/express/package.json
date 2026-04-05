@@ -1,0 +1,50 @@
+{
+  "name": "@otp-service/express",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Express route helpers for OTP generate and verify flows.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otp-service/otp-service-package-v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/otp-service/otp-service-package-v2/issues"
+  },
+  "homepage": "https://github.com/otp-service/otp-service-package-v2/tree/main/packages/express#readme",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsup --config tsup.config.ts",
+    "clean": "rm -rf dist",
+    "lint": "eslint src test",
+    "test": "vitest run --config vitest.config.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@otp-service/core": "workspace:*"
+  },
+  "peerDependencies": {
+    "express": "^4.21.0 || ^5.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0"
+  }
+}
