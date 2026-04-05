@@ -63,9 +63,9 @@ See **TypeScript definitions** in the published `dist/` for full shapes.
 
 ## Documentation
 
-- Monorepo overview: [github.com/Suraj-H/otp-service-package-v2](https://github.com/Suraj-H/otp-service-package-v2)
-- Security notes: [docs/guides/security.md](https://github.com/Suraj-H/otp-service-package-v2/blob/main/docs/guides/security.md)
-- Issues: [github.com/Suraj-H/otp-service-package-v2/issues](https://github.com/Suraj-H/otp-service-package-v2/issues)
+- Monorepo overview: [github.com/Suraj-H/otp-service-package](https://github.com/Suraj-H/otp-service-package)
+- Security notes: [docs/guides/security.md](https://github.com/Suraj-H/otp-service-package/blob/main/docs/guides/security.md)
+- Issues: [github.com/Suraj-H/otp-service-package/issues](https://github.com/Suraj-H/otp-service-package/issues)
 
 ## Stability
 

@@ -45,9 +45,9 @@ Optional **`mapBody`** in handler options adapts your API shape to these inputs.
 
 - [`@otp-service/core`](https://www.npmjs.com/package/@otp-service/core) — build `otpService`
 - [`@otp-service/starter`](https://www.npmjs.com/package/@otp-service/starter) — Redis + provider composition
-- Framework guides: [docs/guides/frameworks/express.md](https://github.com/Suraj-H/otp-service-package-v2/blob/main/docs/guides/frameworks/express.md)
+- Framework guides: [docs/guides/frameworks/express.md](https://github.com/Suraj-H/otp-service-package/blob/main/docs/guides/frameworks/express.md)
 
 ## Links
 
-- Repository: [github.com/Suraj-H/otp-service-package-v2](https://github.com/Suraj-H/otp-service-package-v2)
-- Issues: [github.com/Suraj-H/otp-service-package-v2/issues](https://github.com/Suraj-H/otp-service-package-v2/issues)
+- Repository: [github.com/Suraj-H/otp-service-package](https://github.com/Suraj-H/otp-service-package)
+- Issues: [github.com/Suraj-H/otp-service-package/issues](https://github.com/Suraj-H/otp-service-package/issues)

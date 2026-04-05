@@ -45,9 +45,9 @@ Same contract as Express helpers: **generate** expects `channel`, `purpose`, `re
 
 - [`@otp-service/core`](https://www.npmjs.com/package/@otp-service/core)
 - [`@otp-service/express`](https://www.npmjs.com/package/@otp-service/express) — same HTTP semantics on Express
-- Guide: [docs/guides/frameworks/fastify.md](https://github.com/Suraj-H/otp-service-package-v2/blob/main/docs/guides/frameworks/fastify.md)
+- Guide: [docs/guides/frameworks/fastify.md](https://github.com/Suraj-H/otp-service-package/blob/main/docs/guides/frameworks/fastify.md)
 
 ## Links
 
-- Repository: [github.com/Suraj-H/otp-service-package-v2](https://github.com/Suraj-H/otp-service-package-v2)
-- Issues: [github.com/Suraj-H/otp-service-package-v2/issues](https://github.com/Suraj-H/otp-service-package-v2/issues)
+- Repository: [github.com/Suraj-H/otp-service-package](https://github.com/Suraj-H/otp-service-package)
+- Issues: [github.com/Suraj-H/otp-service-package/issues](https://github.com/Suraj-H/otp-service-package/issues)
