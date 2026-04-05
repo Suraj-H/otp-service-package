@@ -14,6 +14,15 @@ This runs [`scripts/sync-repository-url.mjs`](../scripts/sync-repository-url.mjs
 
 If you have no `origin` yet, add it first, then run the command.
 
+**Renaming the GitHub repository** (for example dropping a `-v2` suffix): in GitHub go to **Settings → General → Repository name**, set the new name, then update your local remote and resync manifests:
+
+```bash
+git remote set-url origin git@github.com:Suraj-H/<new-repo-name>.git
+pnpm sync-repo-url
+```
+
+Commit the updated `package.json` files. GitHub keeps a redirect from the old URL for a while, but `origin` and published npm `repository` fields should match the canonical name.
+
 ## 2. npm scope and token
 
 1. **Create the `@otp-service` org on npm** (required before the first publish). Open [Create an organization](https://www.npmjs.com/org/create), choose the name **`otp-service`**, and complete setup. Without this, `npm publish` fails with **`E404 Not Found`** on `PUT …/@otp-service%2f…` — npm has no namespace for that scope yet.
