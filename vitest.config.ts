@@ -9,6 +9,7 @@ export default defineConfig({
       "@nestjs/testing": resolve(__dirname, "node_modules/@nestjs/testing/index.js"),
       "@otp-service/core": resolve(__dirname, "packages/core/src/index.ts"),
       "@otp-service/express": resolve(__dirname, "packages/express/src/index.ts"),
+      "@otp-service/fastify": resolve(__dirname, "packages/fastify/src/index.ts"),
       "@otp-service/nest": resolve(__dirname, "packages/nest/src/index.ts"),
       "@otp-service/provider-email-resend": resolve(__dirname, "packages/provider-email-resend/src/index.ts"),
       "@otp-service/provider-sms-twilio": resolve(__dirname, "packages/provider-sms-twilio/src/index.ts"),
