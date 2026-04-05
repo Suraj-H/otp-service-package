@@ -96,8 +96,11 @@ function assertPackageMetadata(packageExpectation, packageJson) {
     throw new Error(`${packageExpectation.name} must declare sideEffects false.`);
   }
 
-  if (JSON.stringify(packageJson.files) !== JSON.stringify(["dist"])) {
-    throw new Error(`${packageExpectation.name} must only publish dist/.`);
+  const expectedFiles = ["dist", "README.md"];
+  if (JSON.stringify(packageJson.files) !== JSON.stringify(expectedFiles)) {
+    throw new Error(
+      `${packageExpectation.name} files[] must be ${JSON.stringify(expectedFiles)} (dist + npm README).`
+    );
   }
 
   if (packageJson.main !== "./dist/index.js" || packageJson.types !== "./dist/index.d.ts") {

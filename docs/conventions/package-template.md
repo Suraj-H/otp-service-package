@@ -2,10 +2,15 @@
 
 All runtime packages in this repository should inherit the same baseline conventions so that package creation stays mechanical and reviewable.
 
+## README (npm)
+
+Each published package should include a root **`README.md`** so [npmjs.com](https://www.npmjs.com/) can render install steps, minimal usage, peer dependencies, and links to the monorepo docs ([npm README guidance](https://docs.npmjs.com/about-package-readme-files)). List **`README.md`** in **`files`** next to **`dist`**.
+
 ## Recommended Layout
 
 ```text
 packages/<package-name>/
+  README.md
   package.json
   tsconfig.json
   tsup.config.ts
@@ -36,7 +41,8 @@ Published packages must include `repository`, `bugs`, and `homepage` (copy shape
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "engines": {
     "node": ">=22.0.0"

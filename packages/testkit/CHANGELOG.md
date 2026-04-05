@@ -1,5 +1,13 @@
 # @otp-service/testkit
 
+## 0.1.1
+
+### Patch Changes
+
+- Add consumer-focused README.md to each published package (npm landing page) and include it in the published tarball via `package.json` `files`.
+- Updated dependencies
+  - @otp-service/core@0.1.1
+
 ## 0.1.0
 
 ### Minor Changes

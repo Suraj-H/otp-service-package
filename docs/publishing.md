@@ -64,6 +64,10 @@ pnpm build && pnpm publish -r --access public
 
 Prefer the automated path so versions and changelogs stay aligned.
 
+## Package READMEs (npmjs.com)
+
+Each publishable package includes a root **`README.md`** (listed in **`files`** with **`dist`**) so the npm page shows install steps, usage, and links. npm renders READMEs as [GitHub Flavored Markdown](https://docs.npmjs.com/about-package-readme-files).
+
 ## Root vs packages
 
 The workspace root is **`private: true`** and is not published. Only **`packages/*`** are published; each has **`publishConfig.access: public`**.

@@ -1,6 +1,6 @@
 {
   "name": "@otp-service/provider-sms-twilio",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Twilio SMS delivery adapter for OTP challenges.",
   "license": "MIT",
@@ -22,7 +22,8 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "engines": {
     "node": ">=22.0.0"
