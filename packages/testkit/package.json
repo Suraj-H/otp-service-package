@@ -1,6 +1,6 @@
 {
   "name": "@otp-service/testkit",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "description": "Test doubles and deterministic fixtures for OTP package testing.",
   "license": "MIT",

@@ -1,6 +1,6 @@
 {
   "name": "@otp-service/fastify",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "description": "Fastify route helpers for OTP generate and verify flows.",
   "license": "MIT",

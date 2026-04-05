@@ -1,6 +1,6 @@
 {
   "name": "@otp-service/provider-email-resend",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "description": "Resend email delivery adapter for OTP challenges.",
   "license": "MIT",
